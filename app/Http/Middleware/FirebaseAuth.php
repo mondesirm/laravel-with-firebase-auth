@@ -25,6 +25,5 @@ class FirebaseAuth
         Session::flush();
         return redirect('/login');
       }
-
     }
 }

@@ -40,7 +40,7 @@ Create .env file ( *copy the content from .env.example* !important )
 cp .env.example .env
 ```
 
-Get your API key from firebase [refer video](https://www.youtube.com/watch?v=75aEgBYaexg&t=22s) and paste the key in resources\credentials\firebase_credentials.json
+Get your API key from firebase [refer video](https://www.youtube.com/watch?v=75aEgBYaexg&t=22s) and paste the key in firebase.json
 
 Initialize Firebase Config [refer video](https://www.youtube.com/watch?v=75aEgBYaexg&t=22s) to resources\views\auth\login.blade.php
 

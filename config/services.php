@@ -31,9 +31,9 @@ return [
     ],
 
     'firebase' => [
-        'api_key' => 'api_key', // Only used from JS integration
-        'auth_domain' => 'auth_domain', // Only used from JS integration
-        'database_url' => 'https://database_url.com/',
-        'storage_bucket' => '', // Only used from JS integration
+        'api_key' => env('FIREBASE_API_KEY'),
+        'auth_domain' => env('FIREBASE_AUTH_DOMAIN'),
+        'database_url' => env('FIREBASE_DATABASE_URL'),
+        'storage_bucket' => env('FIREBASE_STORAGE_BUCKET')
     ],
 ];
